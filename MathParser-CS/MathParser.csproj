@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Nejman.MathParser</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Mateusz Nejman</Authors>
+    <Company>Mateusz Nejman</Company>
+    <Copyright>Copyright © Mateusz Nejman</Copyright>
+    <PackageId>Nejman.MathParser</PackageId>
+    <Product>Nejman.MathParser</Product>
+    <Description>Simple Math String Parser. Support square, power and eval.</Description>
+    <PackageProjectUrl>https://github.com/Mateusz-Nejman/MathParser-CS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Mateusz-Nejman/MathParser-CS</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
