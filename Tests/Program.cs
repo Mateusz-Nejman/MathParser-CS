@@ -12,13 +12,12 @@ namespace Tests
         public const string SQRT = "√";
         static void Main(string[] args)
         {
-            string mathString = $"2+(3+8){SQRT}(2+2)*5^4^5";
+            string mathString = $"2+2{SQRT}4^2+5%";
 
             MathBuffer buffer = new MathBuffer(mathString);
 
             Console.WriteLine(mathString);
-            Console.WriteLine(buffer.ChangePowToFunction(buffer.ChangeSqrtToFunction()));
-            Console.WriteLine(buffer.ChangePowToResult(buffer.ChangeSqrtToResult()));
+            Console.WriteLine(buffer.ChangeToFunction());
             Console.WriteLine(buffer.Eval());
             Console.ReadKey();
         }

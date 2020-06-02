@@ -12,6 +12,7 @@
     <Description>Simple Math String Parser. Support square, power and eval.</Description>
     <PackageProjectUrl>https://github.com/Mateusz-Nejman/MathParser-CS</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Mateusz-Nejman/MathParser-CS</RepositoryUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
